@@ -47,14 +47,14 @@ void config(void)
 
 void print_values(void)
 {
-  Serial.print("x=");
-  Serial.print(readx()); 
-  Serial.print(",");  
-  Serial.print("y=");    
-  Serial.print(ready());
-  Serial.print(",");       
-  Serial.print("z=");    
-  Serial.println(readz());      
+//  Serial.print("x=");
+  Serial.println(readx()); 
+//  Serial.print(",");  
+//  Serial.print("y=");    
+//  Serial.print(ready());
+//  Serial.print(",");       
+//  Serial.print("z=");    
+//  Serial.println(readz());      
 }
 
 int readx(void)
