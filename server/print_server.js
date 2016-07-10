@@ -9,6 +9,8 @@ var sp = new serialport(portName, {
     parser: serialport.parsers.readline("\r\n")
 });
 
+
 sp.on('data', function(input) {
-    console.log(input);
+	strArray = input.split(',')
+    console.log(strArray.map(Number));
 });

@@ -48,13 +48,13 @@ void config(void)
 void print_values(void)
 {
 //  Serial.print("x=");
-  Serial.println(readx()); 
-//  Serial.print(",");  
+  Serial.print(readx()); 
+  Serial.print(",");  
 //  Serial.print("y=");    
-//  Serial.print(ready());
-//  Serial.print(",");       
+  Serial.print(ready());
+  Serial.print(",");       
 //  Serial.print("z=");    
-//  Serial.println(readz());      
+  Serial.println(readz());      
 }
 
 int readx(void)
